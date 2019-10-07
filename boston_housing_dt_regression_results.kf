@@ -22,7 +22,7 @@
 				"classifier" : {
 					"type" : "optionHandler",
 					"class" : "weka.classifiers.trees.REPTree",
-					"options" : "-M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0"
+					"options" : "-M 1 -V 0.001 -N 3 -S 1 -L -1 -I 0.0"
 				},
 				"loadClassifierFileName" : "",
 				"name" : "REPTree",
@@ -54,7 +54,7 @@
 				"loader" : {
 					"type" : "loader",
 					"class" : "weka.core.converters.ArffLoader",
-					"filePath" : "../../Users/eww/source/repos/boston_housing_regression/housing.arff",
+					"filePath" : "Documents/Academics/Georgia Tech/CS7641 Machine Learning/Code/PS1 Boston Housing Regression/housing.arff",
 					"useRelativePath" : true
 				},
 				"name" : "ArffLoader"
